@@ -154,15 +154,22 @@ hr {
 	letter-spacing: 1.25px;
 }
 
+@media screen and (max-width: 700px) {
+	body {
+		background: url(./images/bg-pattern-top.svg) left -750px top -660px no-repeat, url(./images/bg-pattern-bottom.svg) right -750px bottom -600px no-repeat;
+		background-color: var(--Dark-cyan);
+	}
+}
 
-@media (max-width: 370px) {
+
+@media screen and (max-width: 370px) {
 	.card {
 		max-width: 300px;
 		margin: 0 1.25rem;
 	}
 }
 
-@media (max-width: 300px) {
+@media screen and (max-width: 300px) {
 	.card {
 		max-width: 270px;
 	}
